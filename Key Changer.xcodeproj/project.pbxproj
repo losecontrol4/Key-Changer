@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162C76F9299D50EE0025B214 /* Key_ChangerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162C76F8299D50EE0025B214 /* Key_ChangerApp.swift */; };
+		162C76FB299D50EE0025B214 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162C76FA299D50EE0025B214 /* ContentView.swift */; };
+		162C76FD299D50F00025B214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162C76FC299D50F00025B214 /* Assets.xcassets */; };
+		162C7700299D50F00025B214 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162C76FF299D50F00025B214 /* Preview Assets.xcassets */; };
+		162C770A299D50F00025B214 /* Key_ChangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162C7709299D50F00025B214 /* Key_ChangerTests.swift */; };
+		162C7714299D50F00025B214 /* Key_ChangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162C7713299D50F00025B214 /* Key_ChangerUITests.swift */; };
+		162C7716299D50F00025B214 /* Key_ChangerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162C7715299D50F00025B214 /* Key_ChangerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		162C7706299D50F00025B214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162C76ED299D50EE0025B214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162C76F4299D50EE0025B214;
+			remoteInfo = "Key Changer";
+		};
+		162C7710299D50F00025B214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162C76ED299D50EE0025B214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162C76F4299D50EE0025B214;
+			remoteInfo = "Key Changer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		162C76F5299D50EE0025B214 /* Key Changer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Key Changer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		162C76F8299D50EE0025B214 /* Key_ChangerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key_ChangerApp.swift; sourceTree = "<group>"; };
+		162C76FA299D50EE0025B214 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		162C76FC299D50F00025B214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		162C76FF299D50F00025B214 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		162C7705299D50F00025B214 /* Key ChangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Key ChangerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		162C7709299D50F00025B214 /* Key_ChangerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key_ChangerTests.swift; sourceTree = "<group>"; };
+		162C770F299D50F00025B214 /* Key ChangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Key ChangerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		162C7713299D50F00025B214 /* Key_ChangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key_ChangerUITests.swift; sourceTree = "<group>"; };
+		162C7715299D50F00025B214 /* Key_ChangerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key_ChangerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		162C76F2299D50EE0025B214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162C7702299D50F00025B214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162C770C299D50F00025B214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162C76EC299D50EE0025B214 = {
+			isa = PBXGroup;
+			children = (
+				162C76F7299D50EE0025B214 /* Key Changer */,
+				162C7708299D50F00025B214 /* Key ChangerTests */,
+				162C7712299D50F00025B214 /* Key ChangerUITests */,
+				162C76F6299D50EE0025B214 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		162C76F6299D50EE0025B214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				162C76F5299D50EE0025B214 /* Key Changer.app */,
+				162C7705299D50F00025B214 /* Key ChangerTests.xctest */,
+				162C770F299D50F00025B214 /* Key ChangerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		162C76F7299D50EE0025B214 /* Key Changer */ = {
+			isa = PBXGroup;
+			children = (
+				162C76F8299D50EE0025B214 /* Key_ChangerApp.swift */,
+				162C76FA299D50EE0025B214 /* ContentView.swift */,
+				162C76FC299D50F00025B214 /* Assets.xcassets */,
+				162C76FE299D50F00025B214 /* Preview Content */,
+			);
+			path = "Key Changer";
+			sourceTree = "<group>";
+		};
+		162C76FE299D50F00025B214 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				162C76FF299D50F00025B214 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		162C7708299D50F00025B214 /* Key ChangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				162C7709299D50F00025B214 /* Key_ChangerTests.swift */,
+			);
+			path = "Key ChangerTests";
+			sourceTree = "<group>";
+		};
+		162C7712299D50F00025B214 /* Key ChangerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				162C7713299D50F00025B214 /* Key_ChangerUITests.swift */,
+				162C7715299D50F00025B214 /* Key_ChangerUITestsLaunchTests.swift */,
+			);
+			path = "Key ChangerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		162C76F4299D50EE0025B214 /* Key Changer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162C7719299D50F00025B214 /* Build configuration list for PBXNativeTarget "Key Changer" */;
+			buildPhases = (
+				162C76F1299D50EE0025B214 /* Sources */,
+				162C76F2299D50EE0025B214 /* Frameworks */,
+				162C76F3299D50EE0025B214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Key Changer";
+			productName = "Key Changer";
+			productReference = 162C76F5299D50EE0025B214 /* Key Changer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		162C7704299D50F00025B214 /* Key ChangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162C771C299D50F00025B214 /* Build configuration list for PBXNativeTarget "Key ChangerTests" */;
+			buildPhases = (
+				162C7701299D50F00025B214 /* Sources */,
+				162C7702299D50F00025B214 /* Frameworks */,
+				162C7703299D50F00025B214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162C7707299D50F00025B214 /* PBXTargetDependency */,
+			);
+			name = "Key ChangerTests";
+			productName = "Key ChangerTests";
+			productReference = 162C7705299D50F00025B214 /* Key ChangerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		162C770E299D50F00025B214 /* Key ChangerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162C771F299D50F00025B214 /* Build configuration list for PBXNativeTarget "Key ChangerUITests" */;
+			buildPhases = (
+				162C770B299D50F00025B214 /* Sources */,
+				162C770C299D50F00025B214 /* Frameworks */,
+				162C770D299D50F00025B214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162C7711299D50F00025B214 /* PBXTargetDependency */,
+			);
+			name = "Key ChangerUITests";
+			productName = "Key ChangerUITests";
+			productReference = 162C770F299D50F00025B214 /* Key ChangerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		162C76ED299D50EE0025B214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					162C76F4299D50EE0025B214 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					162C7704299D50F00025B214 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 162C76F4299D50EE0025B214;
+					};
+					162C770E299D50F00025B214 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 162C76F4299D50EE0025B214;
+					};
+				};
+			};
+			buildConfigurationList = 162C76F0299D50EE0025B214 /* Build configuration list for PBXProject "Key Changer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 162C76EC299D50EE0025B214;
+			productRefGroup = 162C76F6299D50EE0025B214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				162C76F4299D50EE0025B214 /* Key Changer */,
+				162C7704299D50F00025B214 /* Key ChangerTests */,
+				162C770E299D50F00025B214 /* Key ChangerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		162C76F3299D50EE0025B214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162C7700299D50F00025B214 /* Preview Assets.xcassets in Resources */,
+				162C76FD299D50F00025B214 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162C7703299D50F00025B214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162C770D299D50F00025B214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		162C76F1299D50EE0025B214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162C76FB299D50EE0025B214 /* ContentView.swift in Sources */,
+				162C76F9299D50EE0025B214 /* Key_ChangerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162C7701299D50F00025B214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162C770A299D50F00025B214 /* Key_ChangerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162C770B299D50F00025B214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162C7714299D50F00025B214 /* Key_ChangerUITests.swift in Sources */,
+				162C7716299D50F00025B214 /* Key_ChangerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		162C7707299D50F00025B214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162C76F4299D50EE0025B214 /* Key Changer */;
+			targetProxy = 162C7706299D50F00025B214 /* PBXContainerItemProxy */;
+		};
+		162C7711299D50F00025B214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162C76F4299D50EE0025B214 /* Key Changer */;
+			targetProxy = 162C7710299D50F00025B214 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		162C7717299D50F00025B214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		162C7718299D50F00025B214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		162C771A299D50F00025B214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Key Changer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam.Key-Changer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		162C771B299D50F00025B214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Key Changer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam.Key-Changer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		162C771D299D50F00025B214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam.Key-ChangerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Key Changer.app/Key Changer";
+			};
+			name = Debug;
+		};
+		162C771E299D50F00025B214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam.Key-ChangerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Key Changer.app/Key Changer";
+			};
+			name = Release;
+		};
+		162C7720299D50F00025B214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam.Key-ChangerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Key Changer";
+			};
+			name = Debug;
+		};
+		162C7721299D50F00025B214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam.Key-ChangerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Key Changer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162C76F0299D50EE0025B214 /* Build configuration list for PBXProject "Key Changer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162C7717299D50F00025B214 /* Debug */,
+				162C7718299D50F00025B214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162C7719299D50F00025B214 /* Build configuration list for PBXNativeTarget "Key Changer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162C771A299D50F00025B214 /* Debug */,
+				162C771B299D50F00025B214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162C771C299D50F00025B214 /* Build configuration list for PBXNativeTarget "Key ChangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162C771D299D50F00025B214 /* Debug */,
+				162C771E299D50F00025B214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162C771F299D50F00025B214 /* Build configuration list for PBXNativeTarget "Key ChangerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162C7720299D50F00025B214 /* Debug */,
+				162C7721299D50F00025B214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 162C76ED299D50EE0025B214 /* Project object */;
+}
